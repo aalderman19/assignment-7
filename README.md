@@ -11,7 +11,7 @@ Time spent: 3 hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.0
     - Fixed in version: 4.2
-  - [ ] GIF Walkthrough: ![Alt text](https://i.imgur.com/lUkj8sf.gifv)
+  - [ ] GIF Walkthrough: ![Alt text](/Wordpress4XSSAdminComment.gif)
   - [ ] Steps to recreate: In the comments section of a post (as administrator) post code with script tags as a comment. The code will run after the page refreshes.
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
@@ -20,7 +20,7 @@ Time spent: 3 hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2.3
     - Fixed in version: 4.2.4
-  - [ ] GIF Walkthrough: ![Alt text](https://i.imgur.com/UNsFUMi.gifv)
+  - [ ] GIF Walkthrough: ![Alt text](/Wordpress4XSSNavLinkTitle.gif)
   - [ ] Steps to recreate: In the admin menu section, add a link to a new menu. In the Nav Link Title box, place your code. Then save the menu, and it will run.
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/changeset/33541)
@@ -29,7 +29,7 @@ Time spent: 3 hours spent in total
     - Vulnerability types: XSS Injection
     - Tested in version: 4.2.3
     - Fixed in version: 4.2.11
-  - [ ] GIF Walkthrough:![Alt text](https://i.imgur.com/BNt7dNl.gifv)
+  - [ ] GIF Walkthrough: ![Alt text](https://i.imgur.com/BNt7dNl.gifv)
   - [ ] Steps to recreate: Upload an image to wordpress and in the caption box, place your javascript. Attach the image to a page and view the page, the script should run.
   - [ ] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/commit/28f838ca3ee205b6f39cd2bf23eb4e5f52796bd7)
